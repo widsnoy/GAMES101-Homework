@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(Rasterizer)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(OpenCV REQUIRED)
 
